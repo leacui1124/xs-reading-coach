@@ -22,7 +22,7 @@
 在 AI 代理的对话框中输入以下任意一种指令即可启动：
 
 ```
-/reading_coach
+/xs-reading-coach
 ```
 
 ```
@@ -47,34 +47,34 @@
 - 已安装支持 Skill 的 AI 代理（OpenClaw、Claude Code 等）
 
 ### 方法一：下载到AI代理（Open Claw/Claude Code）（推荐）
-阅读 https://github.com/leacui1124/reading_coach 并安装 reading_coach
+阅读 https://github.com/leacui1124/xs-reading-coach 并安装 xs-reading-coach
 
 ### 方法二：从 GitHub 安装
 
 1. 克隆本仓库：
    ```bash
-   git clone https://github.com/leacui1124/reading_coach.git
+   git clone https://github.com/leacui1124/xs-reading-coach.git
    ```
 
 2. 将文件夹复制到 AI 代理的 Skills 目录：
    ```bash
-   cp -r reading_coach ~/.workbuddy/skills/reading_coach
+   cp -r xs-reading-coach ~/.workbuddy/skills/xs-reading-coach
    ```
 
-3. 重启 AI 代理，在对话框输入 `/reading_coach` 验证安装成功。
+3. 重启 AI 代理，在对话框输入 `/xs-reading-coach` 验证安装成功。
 
 ### 方法三：手动安装
 
-1. 下载本仓库的 ZIP 文件，解压得到 `reading_coach` 文件夹
+1. 下载本仓库的 ZIP 文件，解压得到 `xs-reading-coach` 文件夹
 
 2. 将整个文件夹移动到 AI 代理的 Skills 目录：
    ```
-   ~/.workbuddy/skills/reading_coach/
+   ~/.workbuddy/skills/xs-reading-coach/
    ```
 
 3. 确认目录结构如下：
    ```
-   reading_coach/
+   xs-reading-coach/
    ├── SKILL.md
    └── references/
        ├── card_template.md
@@ -123,7 +123,7 @@ Reading Coach 按照 7 个步骤严格顺序执行，每个阶段各司其职：
 ## 文件结构
 
 ```
-reading_coach/
+xs-reading-coach/
 ├── SKILL.md                    # Skill 主文件，定义完整工作流
 └── references/
     ├── card_template.md        # 知识卡片模板与示例
